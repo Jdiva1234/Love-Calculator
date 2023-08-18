@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        console.log("What is your name?");
+        console.log("What is their name?");
+
+        const loveCal = Math.random() * 100;
+        loveCal = Math.floor(loveCal) + 1; 
+        console.log("Your score is " + loveCal + "%")
+
+        if(loveCal > 65){
+            console.log("Your score is " + loveCal + "%." + "You both make a wonderful couple, just keep working and exploring yourself") 
+
+        }else{
+            console.log("Your score is " + loveCal + "%" + "There are more people out there who would love to be with you. Don't give up on love")
+        }
+    </script>
+    <title>Love Calculator  </title>
+</head>
+<body>
+    <h1>Love Calculator</h1>
+    <p>Find your perfect match by clicking the buttom below</p>
+    <button onclick="loveCal">Click Here</button>
+
+</body>
+</html> 
