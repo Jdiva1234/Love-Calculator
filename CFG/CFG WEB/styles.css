@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    width: 100vh;
+}
+
+.header {
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: -20px;
+}
+
+
+
+.nav {
+    background-color: rgb(216, 195, 166);
+    margin-top: 20px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    gap: 20px;
+    width: 100%;
+}
+
+.cuisine{
+background-color: white;
+border: none;
+border-radius: 6px  ;
+color: black;
+padding: 5px;
+margin: 5px;
+}
+
+button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.breakiDiv{
+    background-color: rgb(199, 203, 203);
+
+}
+.breaki{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 15px;
+}
+
+.lunchDiv{
+    background-color: rgb(255, 194, 38);
+}
+.lunchie{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 15px;
+}
+
+.dinnerDiv{
+    background-color: aquamarine;
+}
+.dinar{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 15px;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: black;
+    font-family: dancing script;
+    font-weight: bold;
+
+}
+
+p {
+    font-family: dancing script;
+}
+
+
+
+#allergies {
+    font-family: dancing script;
+}
+
+
+.input {
+    border-radius: 20px;
+    width: 120px;
+    height: 20px;
+}
+
+.delivery,
+.collect {
+    border-radius: 8px;
+    font-family: dancing script;
+    color: blue;
+
+}
+
+
+.breakfast,
+.waffles,
+.bsandwich,
+.esandwich,
+.ssandwich,
+.pancakes,
+.kimchifriedrice,
+.biryanirice,
+.fajitabowl,
+.spagbol,
+.specialfriedrice,
+.curry,
+.pizza,
+.pasta,
+.burger,
+.wraps {
+
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 15px;
+
+
+}
+
+
+#order {
+    background-color: lightblue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+#fullbfast,
+#waffles,
+#bsandwich,
+#esandwich,
+#ssandwich,
+#pancakes,
+#kimchifriedrice,
+#biryanirice,
+#fajitabowl,
+#spagbol,
+#specialfriedrice,
+#curry,
+#pizza,
+#pasta,
+#burger,
+#wraps {
+    font-family: dancing script;
+    border-radius: 8px;
+    color: blue;
+}
+
+.myorder {
+    float: right;
+    color: red;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  
+}
