@@ -1,20 +1,29 @@
+function loveCal(){
+let userName = prompt("What is your name?");
+while(!userName){
+   userName = prompt("Add a name..")
+}
+let otherUserName = prompt("What is their name?");
+while(!otherUserName){
+    otherUserName = prompt("Add a name..")
+ }
+let age = prompt("How old are you?");
+while(!age){
+    age = prompt("How old are you?..")
+ }
+let ageOfOtherUser = prompt("What is their age?");
+while(!ageOfOtherUser){
+    ageOfOtherUser = prompt("Put their age...")
+ }
 
-console.log("What is your name?");
-console.log("What is their name?");
+let loveCalcul = Math.random() * 100;
+loveCalcul = Math.floor(loveCalcul) + 1; 
 
-
-const loveCal = Math.random() * 100;
-loveCal = Math.floor(loveCal) + 1; 
-loveCal.getElementById("demo").innerHtml = "Your score is " + loveCal + "%";
-
-if(loveCal > 65){
-    console.log("Your score is " + loveCal + "%." + "You both make a wonderful couple, just keep working and exploring yourself") 
+if(loveCalcul > 65){
+   document.getElementById("loveResult").innerHTML = "Dear " + userName + " Your score is " + loveCalcul + "%." + "You both make a wonderful couple, just keep working and exploring yourself";
 
 }else{
-    console.log("Your score is " + loveCal + "%" + "There are more people out there who would love to be with you. Don't give up on love")
+    document.getElementById("loveResult").innerHTML = "Dear " + userName + " Your score is " + loveCalcul + "%" + "There are more people out there who would love to be with you. Don't give up on love";
 }
 
-
-
-const leapYear = 2023;
-2023
+}
